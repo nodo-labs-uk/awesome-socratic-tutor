@@ -18,7 +18,7 @@ A Socratic tutor answers with a question. It finds out what you already know, as
 
 ## The method
 
-- [Meno](https://www.gutenberg.org/ebooks/1643) by Plato. Socrates leads an enslaved boy through a geometry problem with questions alone. The best-known example of the method. Free on Project Gutenberg.
+- [Meno](https://www.gutenberg.org/ebooks/1643) by Plato. Socrates leads an enslaved boy through a geometry problem with questions alone. It is the best-known example of the method. Free on Project Gutenberg.
 - [Socrates](https://plato.stanford.edu/entries/socrates/), Stanford Encyclopedia of Philosophy. Who Socrates was and how the Socratic dialogues work.
 - [The Thinker's Guide to Socratic Questioning](https://www.criticalthinking.org/store/products/art-of-socratic-questioning/231) by Richard Paul and Linda Elder. A short book with a taxonomy of Socratic questions and annotated transcripts.
 - [Socratic teaching](https://www.criticalthinking.org/pages/socratic-teaching/606), Foundation for Critical Thinking. A free page on how to run Socratic questioning in a classroom.
@@ -50,7 +50,7 @@ A Socratic tutor answers with a question. It finds out what you already know, as
 
 ## Terminal apps
 
-- [Socratui](https://github.com/nodo-labs-uk/socratui). A Rust TUI that runs the Jane Street socratic-tutor method against Claude, OpenAI, Hugging Face or a local llama.cpp model. It keeps a skill map and learning history, schedules concepts for spaced Socratic review, and makes flashcards you can review in the app or export to Anki. Vim-style keys.
+- [Socratui](https://github.com/nodo-labs-uk/socratui). A Rust TUI that runs the Jane Street socratic-tutor method against Claude, OpenAI, Hugging Face or a local llama.cpp model. It keeps a skill map and your learning history, and schedules concepts for spaced Socratic review. It also makes flashcards that you can review in the app or export to Anki. The keys are vim-style.
 - [dint](https://github.com/safe049/dint). A Python tutor that will not give you the answer. It has long-term memory and SM-2 review.
 - [LearnLock](https://github.com/MitudruDutta/learnlock). A Python CLI that argues with you: it looks for contradictions in your answers and feeds your score into SM-2 scheduling. MIT licence.
 - [recode](https://github.com/ever-oli/recode). Spaced repetition for coding problems. You write the solution from memory, get AI hints, and compare with the reference in a diff.
@@ -60,16 +60,16 @@ A Socratic tutor answers with a question. It finds out what you already know, as
 
 - [OpenTutor](https://github.com/zijinz456/OpenTutor). A self-hosted learning workspace. Upload material and it makes notes, quizzes, flashcards and an adaptive tutor.
 - [Khanmigo](https://www.khanmigo.ai/), Khan Academy. A tutor tied to the Khan Academy curriculum that guides students without giving answers.
-- [Claude for Education](https://www.anthropic.com/news/introducing-claude-for-education), Anthropic. Launched learning mode in April 2025, which guides with questions instead of answers. The learning style is now in Claude.ai and Claude Code.
-- [ChatGPT study mode](https://techcrunch.com/2025/07/29/openai-launches-study-mode-in-chatgpt), OpenAI. Launched in July 2025. It runs on custom system instructions, not a separately trained model.
-- [Gemini Guided Learning](https://blog.google/outreach-initiatives/education/guided-learning/), Google. Launched in August 2025, using the LearnLM work built into Gemini 2.5.
+- [Claude for Education](https://www.anthropic.com/news/introducing-claude-for-education), Anthropic. Anthropic launched learning mode in April 2025. It guides the student with questions and holds back the answer. The learning style is now in Claude.ai and Claude Code.
+- [ChatGPT study mode](https://techcrunch.com/2025/07/29/openai-launches-study-mode-in-chatgpt), OpenAI. Launched in July 2025. It works through custom system instructions on the existing models.
+- [Gemini Guided Learning](https://blog.google/outreach-initiatives/education/guided-learning/), Google. Launched in August 2025. It uses the LearnLM work that Google built into Gemini 2.5.
 
 ## Spaced repetition
 
 A Socratic session finds what you don't know. Spaced repetition stops you forgetting what you learnt.
 
 - [Augmenting Long-term Memory](https://augmentingcognition.com/ltm.html) by Michael Nielsen. How he uses Anki to read papers and learn new fields.
-- [How to write good prompts](https://andymatuschak.org/prompts/) by Andy Matuschak. How to write flashcards that test understanding instead of recall of a phrase.
+- [How to write good prompts](https://andymatuschak.org/prompts/) by Andy Matuschak. How to write flashcards that test whether you understand an idea.
 - [FSRS for Anki](https://github.com/open-spaced-repetition/fsrs4anki). The Free Spaced Repetition Scheduler, now built into Anki.
 
 ## Contributing
