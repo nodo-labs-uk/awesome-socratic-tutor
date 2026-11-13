@@ -1,0 +1,27 @@
+name: Links
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - run: npx awesome-lint
+
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      # Publishers behind doi.org answer scripted requests with 403, so 403 counts as alive.
+      - uses: lycheeverse/lychee-action@v2.9.0
+        with:
+          args: --accept 200,403,429 --max-retries 3 --no-progress README.md contributing.md
