@@ -21,7 +21,7 @@ A Socratic tutor answers with a question. It finds out what you already know, as
 - [Datasets and models](#datasets-and-models)
 - [Prompts and skills](#prompts-and-skills)
 - [Terminal apps](#terminal-apps)
-- [Web apps and products](#web-apps-and-products)
+- [Desktop and web apps](#desktop-and-web-apps)
 
 ## The method
 
@@ -69,11 +69,13 @@ A Socratic tutor answers with a question. It finds out what you already know, as
 - [alix](https://github.com/Alex6323/alix) - Flashcard tool with FSRS scheduling and a tutor you can ask about a card. It calls a model through a CLI such as Claude Code. `Rust` `MIT/Apache-2.0`.
 - [Socrate](https://github.com/Haaaiawd/Socrate) - CLI that teaches programming by Socratic dialogue, from a course outline or your own PDFs and notes. It saves progress and reviews your code by asking questions. Its docs are in Chinese. `Python` `Apache-2.0`.
 
-## Web apps and products
+## Desktop and web apps
 
 - [OpenTutor](https://github.com/zijinz456/OpenTutor) - Self-hosted learning workspace. Upload material and it makes notes, quizzes, flashcards and an adaptive tutor. `Python` `MIT`.
 - [DeepTutor](https://github.com/HKUDS/DeepTutor) - Personal tutor from HKU, with a desktop app and a CLI. Its EduHub shares teaching skills, including Socratic tutors. `Python` `Apache-2.0`.
 - [Bloom](https://github.com/Li-Evan/Bloom) - Tutor named after Bloom's 2 sigma result. It writes a syllabus, gives one lesson at a time and reads your notes to shape the next one. It runs as a Claude Code skill or a web app. `JavaScript` `MIT`.
+- [LearnHarness](https://github.com/amosblomqvist/learnharness) - Desktop app that first finds where your understanding ends, then teaches one reasoning step at a time. You predict before each explanation and explain your reasoning in your own words. A knowledge graph carries what you learn into later sessions. `TypeScript` `AGPL-3.0`.
+  - [Learning Paths](https://github.com/kerr-mwv/learning-path-plugin) - Plugin that builds a study path from a textbook, a course or a book you upload, with teaching and practice chats for each step. `TypeScript` `AGPL-3.0`.
 - [Khanmigo](https://www.khanmigo.ai/) - Khan Academy's tutor, tied to its curriculum. It guides students without giving answers.
 - [Claude for Education](https://www.anthropic.com/news/introducing-claude-for-education) - Anthropic launched learning mode in April 2025. It guides the student with questions and holds back the answer. The learning style is now in Claude.ai and Claude Code.
 - [ChatGPT study mode](https://techcrunch.com/2025/07/29/openai-launches-study-mode-in-chatgpt) - OpenAI launched it in July 2025. It works through custom system instructions on the existing models.
