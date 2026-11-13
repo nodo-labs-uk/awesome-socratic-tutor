@@ -1,4 +1,11 @@
-# Awesome Socratic Tutor
+<h1 align="center"><img src="media/logo.svg" width="640" alt="Awesome Socratic Tutor"></h1>
+
+<p align="center">
+<a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/licence-CC0_1.0-lightgrey.svg" alt="Licence: CC0 1.0"></a>
+<a href="#contributing"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome"></a>
+<a href="https://github.com/nodo-labs-uk/awesome-socratic-tutor/commits/main"><img src="https://img.shields.io/github/last-commit/nodo-labs-uk/awesome-socratic-tutor" alt="Last commit"></a>
+</p>
 
 A list of resources on Socratic tutoring: the method, the research on why tutoring works, and the prompts, models and apps that make a language model teach by asking questions.
 
