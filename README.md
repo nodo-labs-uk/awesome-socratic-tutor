@@ -53,27 +53,27 @@ A Socratic tutor answers with a question. It finds out what you already know, as
 
 ## Prompts and skills
 
-- [socratic-tutor skill](https://github.com/janestreet/agent_skills/tree/master/socratic-tutor) - Jane Street's agent skill for Claude: a diagnostic, a skill map with levels 0 to 5, spaced review and a final assessment. `MIT`
+- [socratic-tutor skill](https://github.com/janestreet/agent_skills/tree/master/socratic-tutor) - Jane Street's agent skill for Claude: a diagnostic, a skill map with levels 0 to 5, spaced review and a final assessment. `MIT`.
 - [socratic-tutor prompts](https://git.fri.uni-lj.si/martin.vuk/socratic-tutor) - Prompts from the University of Ljubljana that turn a chatbot into a tutor, with a Socratic style and a Feynman style.
-- [Socrates Skill](https://github.com/bevibing/socrates-skill) - Agent skill that never answers and only asks. It works on code, documents, API docs and config files. `MIT`
-- [learn-codebase](https://github.com/ktaletsk/learn-codebase) - Agent skill that teaches you a codebase by questioning. It makes you predict before it reveals an answer, and keeps a journal of what you know and what you are still bluffing. `MIT`
-- [think-before-code](https://github.com/Far-200/think-before-code) - Socratic agent skills for data structures, algorithms and software-engineering judgement, with modes for dry runs, complexity, debugging, test design and mock interviews. `MIT`
-- [Learn Anything](https://github.com/ChenChenyaqi/learn-anything) - Generates skills and commands for 30+ AI coding tools that turn them into a Socratic tutor, with a knowledge map, TDD-style exercises, quizzes and a web dashboard. `TypeScript` `MIT`
+- [Socrates Skill](https://github.com/bevibing/socrates-skill) - Agent skill that never answers and only asks. It works on code, documents, API docs and config files. `MIT`.
+- [learn-codebase](https://github.com/ktaletsk/learn-codebase) - Agent skill that teaches you a codebase by questioning. It makes you predict before it reveals an answer, and keeps a journal of what you know and what you are still bluffing. `MIT`.
+- [think-before-code](https://github.com/Far-200/think-before-code) - Socratic agent skills for data structures, algorithms and software-engineering judgement, with modes for dry runs, complexity, debugging, test design and mock interviews. `MIT`.
+- [Learn Anything](https://github.com/ChenChenyaqi/learn-anything) - Generates skills and commands for 30+ AI coding tools that turn them into a Socratic tutor, with a knowledge map, TDD-style exercises, quizzes and a web dashboard. `TypeScript` `MIT`.
 
 ## Terminal apps
 
-- [Socratui](https://github.com/nodo-labs-uk/socratui) - TUI that runs the Jane Street socratic-tutor method against Claude, OpenAI, Hugging Face or a local llama.cpp model. It keeps a skill map and your learning history, and schedules concepts for spaced Socratic review. It also makes flashcards that you can review in the app or export to Anki. The keys are vim-style. `Rust` `MIT`
-- [dint](https://github.com/safe049/dint) - Tutor that will not give you the answer. It has long-term memory and SM-2 review. `Python` `MIT`
-- [LearnLock](https://github.com/MitudruDutta/learnlock) - CLI that argues with you: it looks for contradictions in your answers and feeds your score into SM-2 scheduling. `Python` `MIT`
-- [recode](https://github.com/ever-oli/recode) - Spaced repetition for coding problems. You write the solution from memory, get AI hints, and compare with the reference in a diff. `Python` `MIT`
-- [alix](https://github.com/Alex6323/alix) - Flashcard tool with FSRS scheduling and a tutor you can ask about a card. It calls a model through a CLI such as Claude Code. `Rust` `MIT/Apache-2.0`
-- [Socrate](https://github.com/Haaaiawd/Socrate) - CLI that teaches programming by Socratic dialogue, from a course outline or your own PDFs and notes. It saves progress and reviews your code by asking questions. Docs in Chinese. `Python` `Apache-2.0`
+- [Socratui](https://github.com/nodo-labs-uk/socratui) - TUI that runs the Jane Street socratic-tutor method against Claude, OpenAI, Hugging Face or a local llama.cpp model. It keeps a skill map and your learning history, and schedules concepts for spaced Socratic review. It also makes flashcards that you can review in the app or export to Anki. The keys are vim-style. `Rust` `MIT`.
+- [dint](https://github.com/safe049/dint) - Tutor that will not give you the answer. It has long-term memory and SM-2 review. `Python` `MIT`.
+- [LearnLock](https://github.com/MitudruDutta/learnlock) - CLI that argues with you: it looks for contradictions in your answers and feeds your score into SM-2 scheduling. `Python` `MIT`.
+- [recode](https://github.com/ever-oli/recode) - Spaced repetition for coding problems. You write the solution from memory, get AI hints, and compare with the reference in a diff. `Python` `MIT`.
+- [alix](https://github.com/Alex6323/alix) - Flashcard tool with FSRS scheduling and a tutor you can ask about a card. It calls a model through a CLI such as Claude Code. `Rust` `MIT/Apache-2.0`.
+- [Socrate](https://github.com/Haaaiawd/Socrate) - CLI that teaches programming by Socratic dialogue, from a course outline or your own PDFs and notes. It saves progress and reviews your code by asking questions. Docs in Chinese. `Python` `Apache-2.0`.
 
 ## Web apps and products
 
-- [OpenTutor](https://github.com/zijinz456/OpenTutor) - Self-hosted learning workspace. Upload material and it makes notes, quizzes, flashcards and an adaptive tutor. `Python` `MIT`
-- [DeepTutor](https://github.com/HKUDS/DeepTutor) - Personal tutoring app from HKU with a desktop app, a CLI and EduHub, a hub of teaching skills that includes Socratic tutors. `Python` `Apache-2.0`
-- [Bloom](https://github.com/Li-Evan/Bloom) - Tutor named after Bloom's 2 sigma result. It writes a syllabus, gives one lesson at a time and reads your notes to shape the next one. Runs as a Claude Code skill or a web app. `JavaScript` `MIT`
+- [OpenTutor](https://github.com/zijinz456/OpenTutor) - Self-hosted learning workspace. Upload material and it makes notes, quizzes, flashcards and an adaptive tutor. `Python` `MIT`.
+- [DeepTutor](https://github.com/HKUDS/DeepTutor) - Personal tutoring app from HKU with a desktop app, a CLI and EduHub, a hub of teaching skills that includes Socratic tutors. `Python` `Apache-2.0`.
+- [Bloom](https://github.com/Li-Evan/Bloom) - Tutor named after Bloom's 2 sigma result. It writes a syllabus, gives one lesson at a time and reads your notes to shape the next one. Runs as a Claude Code skill or a web app. `JavaScript` `MIT`.
 - [Khanmigo](https://www.khanmigo.ai/) - Khan Academy's tutor, tied to its curriculum. It guides students without giving answers.
 - [Claude for Education](https://www.anthropic.com/news/introducing-claude-for-education) - Anthropic launched learning mode in April 2025. It guides the student with questions and holds back the answer. The learning style is now in Claude.ai and Claude Code.
 - [ChatGPT study mode](https://techcrunch.com/2025/07/29/openai-launches-study-mode-in-chatgpt) - OpenAI launched it in July 2025. It works through custom system instructions on the existing models.
